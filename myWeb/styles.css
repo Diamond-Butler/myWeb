@@ -1,0 +1,73 @@
+*{
+    box-sixing: border box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sand' , sans-serif;
+    scroll-behvaiuor: smooth;
+}
+
+.navbar {
+  background: color:black
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999; 
+}
+
+.navbar__container {
+    fidplay: flex;
+
+justify-conten: space-between;
+height: 80;
+z-indent: 1;
+width: 100%;
+max-width: 130opx;
+margin: 0 auto;
+padding: 0 50px;
+}
+
+#navbar__logo {
+    background: color: #ff8177;
+    background-image: linear-gradient(to top, color #ff0844 0%, color#ffb199 100% );
+    background-size: 100$;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.navbar__menu {
+    display: flex;
+    alight-items:center;
+    list-styles: none;
+}
+
+.navbar__items {
+    height: 80px;
+}
+
+.navbar{
+    color:white;
+    display: flex;
+    aligh-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
